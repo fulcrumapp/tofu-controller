@@ -1,0 +1,16 @@
+name: tofu-controller
+id: ari:cloud:compass:9233df39-e597-47e6-ab42-e07f4d48709c:component/30d7834e-f829-4e6c-9b1b-cc6d8c1e56c5/c95ad43c-59cd-4877-87bd-e759c4e0e961
+description: A GitOps OpenTofu and Terraform controller for Flux
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/fulcrumapp/tofu-controller
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields: null
